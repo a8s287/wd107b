@@ -1,0 +1,41 @@
+<style>
+	h2	{
+		font-size:50px;
+		}
+	h3
+		{
+		font-size:40px
+		}
+	ul	{color     : #003377;
+		font-size:   30px}
+	table	{
+		font-size:30px;
+		}
+	.t1,th	{
+		background-color:#666666;
+		color:#FFFFFF;
+		}
+	.t2	{
+		background-color:#FFFFFF
+		}
+	caption	{
+		color:#444444;
+		font-size:40px
+		}
+	form	{
+		background-color:	#FFDD55;
+		font-size:20px
+		}
+	#f6	{
+		font-size:20px;
+		background:#666666;
+		color:#ffffff;
+		border:#666666;
+		}
+	p	{
+		font-size:30px
+		}
+	body	{background: #FFBB66;
+		font-family:Microsoft JhengHei;}
+	
+</style>
