@@ -1,0 +1,98 @@
+<link rel="stylesheet" type="text/css" href="bootstrapp.htm">
+<h2 id="title">慣用樣式表</h2>
+	<ul>
+		<li>TESE1</li>
+		<li>TEST2</li>
+		<li>TEST3</li>
+		<li>TEST4</li>
+	</ul>
+	<table>
+		<caption>樣式表</caption>
+		<tr class="t1">
+			<th>誰的家
+			<th>我家
+			<th>你家
+			<th>他家
+		<tr class="t2">
+			<th>狗狗
+			<td>1隻
+			<td>2隻
+			<td>3隻
+		<tr class="t2">
+			<th>貓貓
+			<td>3隻
+			<td>2隻
+			<td>1隻
+		<tr class="t2">
+			<th>恐龍
+			<td>2隻
+			<td>1隻
+			<td>4隻
+	</table>
+<form>
+    <h3>人生調查表</h3>
+        姓名:<input id="f1" name="name" type="text"><br>
+        性別:<input id="f1" name="sexual" type="radio" value="男">男
+             <input id="f1" name="sexual" type="radio" value="女">女
+    <hr>
+        年齡:<input id="f2" name="age" type="number" min="0" max="150"><br>
+        生日:<input id="f2" name="birthday" type="date"><br>
+        職業:
+        <input id="f3" name="occupation" type="checkbox" value="軍人">軍人
+        <input id="f3" name="occupation" type="checkbox" value="公務人員">公務人員
+        <input id="f3" name="occupation" type="checkbox" value="老師">老師
+        <input id="f3" name="occupation" type="checkbox" value="商人">商人
+        <input id="f3" name="occupation" type="checkbox" value="職員">職員
+        <input id="f3" name="occupation" type="checkbox" value="科技業">科技業
+        <input id="f3" name="occupation" type="checkbox" value="自由業">自由業
+        <input id="f3" name="occupation" type="checkbox" value="其他">其他<br>
+        是否結婚:
+        <input id="f3" name="marraige" type="radio" value="是">是
+        <input id="f3" name="marraige" type="radio" value="否">否<br>
+    <hr>
+        興趣:
+        <input id="f4" name="hobby" type="checkbox" value="唱歌">唱歌
+        <input id="f4" name="hobby" type="checkbox" value="跳舞">跳舞
+        <input id="f4" name="hobby" type="checkbox" value="玩音樂">玩音樂
+        <input id="f4" name="hobby" type="checkbox" value="打電腦">打電腦
+        <input id="f4" name="hobby" type="checkbox" value="追星">追星
+        <input id="f4" name="hobby" type="checkbox" value="看劇">看劇
+        <input id="f4" name="hobby" type="checkbox" value="運動">運動
+        <input id="f4" name="hobby" type="checkbox" value="拍影片">拍影片
+        <input id="f4" name="hobby" type="checkbox" value="打毛線">打毛線
+        <input id="f4" name="hobby" type="checkbox" value="吃美食">吃美食
+        <input id="f4" name="hobby" type="checkbox" value="其他">其他<br>
+        夢想:
+        <input id="f4" name="dream" type="checkbox" value="成為總統">成為總統
+        <input id="f4" name="dream" type="checkbox" value="當太空人">當太空人
+        <input id="f4" name="dream" type="checkbox" value="變成有錢人">變成有錢人
+        <input id="f4" name="dream" type="checkbox" value="當歌手">當歌手
+        <input id="f4" name="dream" type="checkbox" value="國際巨星">國際巨星
+        <input id="f4" name="dream" type="checkbox" value="成為模特爾">成為模特爾
+        <input id="f4" name="dream" type="checkbox" value="當老師">當老師
+        <input id="f4" name="dream" type="checkbox" value="其他">其他<br>
+    <hr>
+        實現了嗎?<input id="f5" name="trfal" type="radio" value="是">是
+                <input id="f5" name="trfal" type="radio" value="否">否<br>
+    <input id="f6" type="submit" value="提交問卷">
+</form>
+
+
+
+<h2>歡迎來到昱雅的網站</h2>
+<p>金門大學資工一年級</p>
+<p>朋友是一隻牛</p>
+<p>口頭禪是幹</p>
+<p>我的世界裡充滿了很多這種東西</p>
+<h3>陷阱妹</h3>
+
+<img src="https://i.kfs.io/article5/global/21,7147,2v1/original.jpg" width="500" heigh="250">
+
+<p>阿不對是這種</p>
+<h3>ㄈㄈ尺</h3>
+<iframe width="560" height="315" center src="https://www.youtube.com/embed/bTj6NQAHDEY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>阿不對不對也不是這個啦!</p>
+<h3>是這個</h3>
+<img center src="https://image.cache.storm.mg/styles/smg-800x533-fp/s3/media/image/2018/01/26/20180126-053849_U7418_M374298_e2a0.GIF?itok=Qyx2BMZ0" width="500" heigh="200">
+<h3>LOVE & PEACE is so strong</h3>
+<a href="https://www.facebook.com/profile.php?id=100007797949184"><p style="font-sized:40px">昱雅的FB</p></a>
