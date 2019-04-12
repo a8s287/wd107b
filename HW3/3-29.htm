@@ -22,6 +22,7 @@
   			min-width: 160px;
   			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
  			 padding: 12px 16px;
+			z-index:1;
 		}
 		.dropdown:hover .dropdown-content {
   			display: block;
@@ -54,7 +55,7 @@
 		font-size:35px;
 		margin:0px;
 		background-color:#9999FF;
-		pading:10px;
+		padding:10px;
 		top:10px;
 		left:5px;
 		border: none;
@@ -76,6 +77,7 @@
 			background-color:#9999FF;
 		}
 		.touch	{
+			display: block;
 			font-family:monospace;
 			text-decoration:none;
 			color:#0000AA;
@@ -91,18 +93,20 @@
 		
 
 		@media only screen and (max-width: 600px) {
-    		 .div1{
-			
-			 width:90px;		
-    			}
+    		.div1{
+			overflow:hidden;
+			width:90px;		
+    		}
 		.div1:hover
 			{
 			position:fixed;
 			top:50px;
 			width:200px;
 			height:5000px;
-			}
+			transition: transform 2s;
+	
 		}
+		
 
 	</style>
 </head>
