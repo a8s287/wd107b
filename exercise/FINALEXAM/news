@@ -1,0 +1,163 @@
+head>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<title>welcome to my web</title>
+	<style>
+	#top{
+	position:fixed;
+	top:0px;
+	width: 100%;
+ 	height: 400px;
+	z-index:0;
+	}
+	#lefticon{
+	position:fixed;
+	top:70%;
+	width:100px;
+	height:100px;
+	z-index:2;
+	}
+	#righticon{
+	position:fixed;
+	width:100px;
+	height:100px;
+	right:50px;
+	bottom:50px;
+	z-index:2;
+	}
+	
+	.blockspace
+	{
+	background-color:#FFCCCC;
+	z-index:-100;
+	height:470px;
+	}
+	#block3
+	{
+	background-color:#FFCCCC;
+	position:absolute;
+	width:100%;
+	height:2200px;
+	z-index:1;
+	}
+	.block3-1
+	{
+	width:70%;
+	height:500px;
+	position:absolute;
+	right:15%;
+	background-color:#FFB7DD;
+	color:#FFFFFF;
+	}
+	.blockimg
+	{
+	width:50%;
+	height:500px;
+	} 	
+	.block3-2-1
+	{
+	position:relative;
+	top:500px;
+	left:15%;
+	width:50%;
+	height:315px;
+	background-color:#FFB7DD;
+	z-index:1;
+	}
+	.blankspace
+	{
+	height:100px;
+	}
+	.block3-2-2
+	{
+	position:relative;
+	top:500px;
+	left:5%;
+	width:50%;
+	height:315px;
+	background-color:#FFB7DD;
+	z-index:1;
+	}
+	.block3-2-3
+	{
+	position:relative;
+	top:500px;
+	left:50%;
+	width:45%;
+	height:315px;
+	background-color:#FFB7DD;
+	z-index:1;
+	}
+	.block3-2-4
+	{
+	position:relative;
+	top:500px;
+	left:25%;
+	width:50%;
+	height:315px;
+	background-color:#FFB7DD;
+	z-index:1;
+	}
+	#lefticon:hover{
+	position:fixed;
+	top:70%;
+	width:150px;
+	height:150px;
+	z-index:2;
+	transition:0.5s;
+	}
+	#righticon:hover{
+	position:fixed;
+	width:150px;
+	height:150px;
+	right:50px;
+	bottom:50px;
+	z-index:2;
+	transition:0.5s;
+	}
+	</style>
+</head>
+<body>
+	<img id="top" src="IMG_1326.png"></img>
+	<img id="lefticon" onclick="location.href='NEW.htm'" src="ezgif-1-baba3941749a.gif"></img>
+	<img id="righticon" onclick="location.href='mystory.htm'" src="ezgif-1-bd60f29cbab0.gif"></img>
+	<div class="blockspace"></div>
+	<div id="block3">
+		<div class="block3-1">
+			<img class="blockimg" style="float:left;" src="MCR.jpg">
+			<h1 style="font-family: Microsoft JhengHei; position:right;">My Recommendation of Songs</h1>
+			<h3 style="font-family: Microsoft JhengHei;">
+			經典搖滾歌曲推薦如下<br>
+			這些都是優秀作品<br>
+			璞玉經得起琢磨<br>
+			好歌經得起時間的歷練<br>
+			我想那些說自己的耳朵有老靈魂的人<br>
+			都跟我一樣<br>
+			喜歡那些永遠不退流行的好歌<br>
+			</h3>
+		</div>
+	</div>
+	<div class="blankspace"></div>
+	<div class="block3-2-1">
+	<center>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/1w7OgIMMRc4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</center>
+	</div>
+	<div class="blankspace"></div>
+	<div class="block3-2-2">
+	<center>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/RRKJiM9Njr8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<center>
+	</div>
+	<div class="blankspace"></div>
+	<div class="block3-2-3">
+	<center>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/On-ndL258DU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<center>
+	</div>
+	<div class="blankspace"></div>
+	<div class="block3-2-4">
+	<center>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/XUClIslXKZo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<center>
+	</div>
+</body>	
