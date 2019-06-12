@@ -7,3 +7,4 @@
 教師 | 陳鍾誠
 學校 | 金門大學
 科系 | 資訊工程系
+我的專案 | [昱雅的專案](https://a8s287.github.io/wd107b/exercise/FINALEXAM/NEW.htm)  
