@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 <script>
 	function toggleDropdown(){
@@ -197,10 +198,7 @@
 	color:#FF88C2;
 	transition: 0.5s;
 	}
-	#block2
-	{
-	height:470px;
-	}
+	
 	#block3
 	{
 	background-color:#FFCCCC;
@@ -295,16 +293,74 @@
 	z-index:2;
 	transition:0.5s;
 	}
-	
+	@media only screen and (max-width: 1200px) {
+    		.blockimg
+		{
+		width:30%;
+		height:auto;
+		}
+		#bt1
+		{
+		font-size:20px;
+		left:100px;
+		}
+		#bt2
+		{
+		font-size:20px;
+		left:250px;
+		}
+		#bt3
+		{
+		font-size:20px;
+		left:400px;
+		}
+		.block3-2-1
+		{
+		position:relative;
+		top:500px;
+		left:10%;
+		width:80%;
+		height:500px;
+		background-color:#FFB7DD;
+		}
+		.block3-2-2
+		{
+		position:relative;
+		top:500px;
+		left:10%;
+		width:80%;
+		height:500px;
+		background-color:#FFB7DD;
+		}
+		.block3-2-3
+		{
+		position:relative;
+		top:500px;
+		left:10%;
+		width:80%;
+		height:1200px;
+		background-color:#FFB7DD;
+		}
+		#block3
+		{
+		background-color:#FFCCCC;
+		position:absolute;
+		width:100%;
+		height:3200px;
+		z-index:1;
+		}
+	}
+	}
+}
 
 </style>
 </head>
 <body>
 	<div id="head">
 	<center>
-	<button onclick="location.href='mystory.htm'" style="position:fixed; right:35%"}>My story</button >
+	<button id="bt1" onclick="location.href='mystory.htm'" style="position:fixed; right:35%"}>My story</button >
 	<div class="dropdown">
-	<button style="position:fixed; right:50%"} class="dropbtn" onclick="toggleDropdown()">Contact me
+	<button id="bt2" style="position:fixed; right:50%"} class="dropbtn" onclick="toggleDropdown()">Contact me
 	<div class="dropdown-content" id="myDropdown">
     	<a href="https://www.facebook.com/profile.php?id=100007797949184">FB</a>
     	<a href="https://www.instagram.com/a8s287/">Instagram</a>
@@ -313,7 +369,7 @@
 	</button>
 	</div>
 		
-	<button onclick="location.href='news.htm'" style="position:absolute; right:65%"}>NEWS</button>
+	<button id="bt3" onclick="location.href='news.htm'" style="position:absolute; right:65%"}>NEWS</button>
 	
 			
 	</div>
