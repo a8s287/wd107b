@@ -3,7 +3,10 @@
 連結:[welcome to my web](https://a8s287.github.io/wd107b/exercise/FINALEXAM/NEW.htm)
 
 ## 1.標頭菜單(Menu bar)有三個按紐
-滑鼠在按鈕上時，字的顏色會改變，其中NEWS、My Story兩個按鈕可以進入不同的連結，分別是我寫的另外兩個分頁，Contact me則有下拉式選單，有三個選項，可以用三種社交網站聯絡到我
+滑鼠在按鈕上時，字的顏色會改變<br>
+其中NEWS、My Story兩個按鈕可以進入不同的連結<br>
+分別是我寫的另外兩個分頁<br>
+Contact me則有下拉式選單，有三個選項，可以用三種社交網站聯絡到我<br>
 
 ## 2.標頭圖片
 會顯示在最上面，往下拉以後會被網頁內容蓋住，用z-index設在最下層，但是fixed不動的位置，可做出此效果
