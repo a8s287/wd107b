@@ -1,6 +1,6 @@
 # 主頁
 
-## 連結[welcome to my web](https://a8s287.github.io/wd107b/exercise/FINALEXAM/NEW.htm)
+連結:[welcome to my web](https://a8s287.github.io/wd107b/exercise/FINALEXAM/NEW.htm)
 
 ## 1.標頭菜單(Menu bar)有三個按紐
 滑鼠在按鈕上時，字的顏色會改變，其中NEWS、My Story兩個按鈕可以進入不同的連結，分別是我寫的另外兩個分頁，Contact me則有下拉式選單，有三個選項，可以用三種社交網站聯絡到我
